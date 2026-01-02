@@ -1,0 +1,22 @@
+## App File Structure
+
+src/
+│
+├─ firebase.js
+│
+├─ context/
+│   └─ AuthContext.jsx
+│
+├─ components/
+│   ├─ ProtectedRoute.jsx
+│   └─ Navbar.jsx
+│
+├─ pages/
+│   ├─ Login.jsx
+│   ├─ Register.jsx
+│   ├─ CreateTicket.jsx
+│   ├─ MyTickets.jsx
+│   └─ GlobalTickets.jsx   (empty for now)
+│
+├─ App.jsx
+└─ main.jsx
